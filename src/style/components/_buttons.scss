@@ -36,6 +36,7 @@
     $primary-color 0%,
     $secondary-color 100%
   );
+
   border-image-slice: 1;
   // Responsive Button hero style
   @include respond(phone) {

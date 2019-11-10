@@ -25,10 +25,11 @@
 
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-
+    
     <!-- Bootstrap cdn link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase:600&display=swap');
       .rotate90 {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -36,7 +37,11 @@
         -ms-transform: rotate(-90deg);
         transform: rotate(-90deg);
       }
-      
+      .text-color{
+        color: #84D3DE;
+        font-size: 80px;
+        font-family: 'Cormorant Unicase', serif;
+      }
     </style>
   </head>
 
@@ -48,7 +53,7 @@
       <div id="hero" class="jumbotron animation img-fluid ">
         <div class="container">
           <h1 class="hero-title" class="load-hidden">
-           Vishal Ranjan
+            <span class="text-color">Vishal Ranjan</span>
             <br />
            <b> I'm a Front-End Web Developer.</b>
           </h1>
@@ -133,7 +138,7 @@
               <div class="project-wrapper__image">
                 <a href="https://vishalrranjan.github.io/Hex-Color-Clock-/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/submarine.gif" />
+                    <img class="img-fluid" src="./assets/hexcode.png" />
                   </div>
                 </a>
               </div>

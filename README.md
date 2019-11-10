@@ -1,6 +1,6 @@
 # PortfolioSite -
 my first portfolio which shows my skills and experience.
-wnna view a live  **[visit here]()**
+wnna view a live  **[visit here](https://cocky-hypatia-041451.netlify.com/)**
 ## Technologies used 🛠️
 
 - [Webpack](https://webpack.js.org/concepts/) - Static module bundler
